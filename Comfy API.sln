@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Comfy API", "Comfy API.pyproj", "{2318C0B3-252A-40FA-ADDD-D28CE6AF5AD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{4867CE04-1A8F-4EBC-96B1-BBA7BFA1CF18}"
+	ProjectSection(SolutionItems) = preProject
+		App.py = App.py
+		workflow_api.json = workflow_api.json
+		websocket-test.py = websocket-test.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2318C0B3-252A-40FA-ADDD-D28CE6AF5AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2318C0B3-252A-40FA-ADDD-D28CE6AF5AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C5C2280-ED20-4F8F-89FB-AF167FD30A58}
+	EndGlobalSection
+EndGlobal
