@@ -7,10 +7,24 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Comfy API", "Comfy API.pypr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{4867CE04-1A8F-4EBC-96B1-BBA7BFA1CF18}"
 	ProjectSection(SolutionItems) = preProject
-		App.py = App.py
-		workflow_api.json = workflow_api.json
+		API.py = API.py
+		requirements.txt = requirements.txt
 		websocket-test.py = websocket-test.py
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Json", "Json", "{BE2D842A-D66B-485E-8AE6-EC3DACEBAA0E}"
+	ProjectSection(SolutionItems) = preProject
+		controlnet.json = controlnet.json
+		text2image.json = text2image.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auxiliar", "Auxiliar", "{BEA3E257-0878-43CC-B1A9-917DF5C133EF}"
+	ProjectSection(SolutionItems) = preProject
+		generateFromText.py = generateFromText.py
+		websocket-test.py = websocket-test.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imagenes", "Imagenes", "{4540EBD0-14D1-4550-8422-272223BC4EE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +37,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE2D842A-D66B-485E-8AE6-EC3DACEBAA0E} = {4867CE04-1A8F-4EBC-96B1-BBA7BFA1CF18}
+		{BEA3E257-0878-43CC-B1A9-917DF5C133EF} = {4867CE04-1A8F-4EBC-96B1-BBA7BFA1CF18}
+		{4540EBD0-14D1-4550-8422-272223BC4EE0} = {4867CE04-1A8F-4EBC-96B1-BBA7BFA1CF18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C5C2280-ED20-4F8F-89FB-AF167FD30A58}

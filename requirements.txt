@@ -2,3 +2,6 @@ requests
 Pillow
 Gradio
 numpy
+fastapi
+uvicorn
+websocket
