@@ -74,7 +74,7 @@ images = get_images(ws, prompt)
 
 for node_id in images:
      for image_data in images[node_id]:
-         from PIL import Image
+         from PIL import Image+
          import io
          image = Image.open(io.BytesIO(image_data))
          #image.show()

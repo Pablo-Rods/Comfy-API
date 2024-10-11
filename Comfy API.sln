@@ -7,6 +7,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Comfy API", "Comfy API.pypr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{4867CE04-1A8F-4EBC-96B1-BBA7BFA1CF18}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		API.py = API.py
 		requirements.txt = requirements.txt
 		websocket-test.py = websocket-test.py
@@ -21,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auxiliar", "Auxiliar", "{BEA3E257-0878-43CC-B1A9-917DF5C133EF}"
 	ProjectSection(SolutionItems) = preProject
 		generateFromText.py = generateFromText.py
+		image-post.py = image-post.py
 		websocket-test.py = websocket-test.py
 	EndProjectSection
 EndProject
