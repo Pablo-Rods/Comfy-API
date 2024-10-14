@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución",
 		.gitignore = .gitignore
 		API.py = API.py
 		requirements.txt = requirements.txt
-		websocket-test.py = websocket-test.py
+		websocketTest.py = websocketTest.py
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Json", "Json", "{BE2D842A-D66B-485E-8AE6-EC3DACEBAA0E}"
@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auxiliar", "Auxiliar", "{BE
 	ProjectSection(SolutionItems) = preProject
 		generateFromText.py = generateFromText.py
 		image-post.py = image-post.py
-		websocket-test.py = websocket-test.py
+		websocketTest.py = websocketTest.py
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imagenes", "Imagenes", "{4540EBD0-14D1-4550-8422-272223BC4EE0}"

@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 ##Mis ignores
 ./.env
+./venv
